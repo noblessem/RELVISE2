@@ -9,3 +9,14 @@ function burgerMenu(){
 	bodyLock.classList.toggle('body-lock')
 	console.log(bodyLock);
 }
+(function(){
+	const header = document.querySelector('.header__container');
+	window.onscroll = () =>{
+		if(window.pageYOffset>80){
+			header.classList.add('header__container-active');
+		}
+		else{
+			header.classList.remove('header__container-active');
+		}
+	}
+}());

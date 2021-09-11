@@ -127,6 +127,7 @@ body {
 	min-height: 104px;
 	align-items: center;
 	position: relative;
+	transition: .2s ease-in;
 }
 .burger__menu{
 	width: 30px;
@@ -1226,7 +1227,7 @@ transition: .2s ease-in-out;
 
 
 @media (max-width:767px) {
-	.header__container{
+	.header__container-active{
 		min-height: 50px;
 		background: white;
 		padding-bottom: 20px;
